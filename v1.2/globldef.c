@@ -11,7 +11,7 @@
 
 #include "globldef.h"
 
-char textbuf[TEXTBUF_SIZE_CHARS];
+char textbuf[TEXTBUF_SIZE_CHARS] = {'\0'};
 
 size_t _get_closest_power2_round(size_t input)
 {
