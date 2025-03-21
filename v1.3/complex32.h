@@ -29,11 +29,11 @@ struct _complex32 {
 
 typedef struct _complex32 complex32_t;
 
-bool complex32_get_conjugate(const complex32_t *p_input, complex32_t *p_output);
-bool complex32_add(const complex32_t *p_input1, const complex32_t *p_input2, complex32_t *p_output);
-bool complex32_subtract(const complex32_t *p_input1, const complex32_t *p_input2, complex32_t *p_output);
-bool complex32_multiply(const complex32_t *p_input1, const complex32_t *p_input2, complex32_t *p_output);
-bool complex32_divide(const complex32_t *p_input1, const complex32_t *p_input2, complex32_t *p_output);
+extern bool complex32_get_conjugate(const complex32_t *p_input, complex32_t *p_output);
+extern bool complex32_add(const complex32_t *p_input1, const complex32_t *p_input2, complex32_t *p_output);
+extern bool complex32_subtract(const complex32_t *p_input1, const complex32_t *p_input2, complex32_t *p_output);
+extern bool complex32_multiply(const complex32_t *p_input1, const complex32_t *p_input2, complex32_t *p_output);
+extern bool complex32_divide(const complex32_t *p_input1, const complex32_t *p_input2, complex32_t *p_output);
 
 #endif /*COMPLEX32_H*/
 
